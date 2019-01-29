@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Places I've been</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="placeForm">
+        <div class="form-group">
+          <label for="country">Country</label>
+          <input class="form-control" id="country" type="text">
+          <label for="date">Date</label>
+          <input class="form-control" id="date" type="date">
+          <label for="birds">What birds did you see?</label>
+          <input class="form-control" id="birds" type="text">
+          <label for="time">What Time?</label>
+          <input class="form-control" id="time" type="time">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <div id="results">
+      </div>
+    </div>
+  </body>
+</html>
